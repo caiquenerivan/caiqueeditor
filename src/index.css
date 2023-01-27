@@ -3,13 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
+  ;
 }
 
-:root{
+:root {
   --primary-color: #F6F6EE;
   --sec-color: #181332;
-  --sec-color-t: #18133250; 
+  --sec-color-t: #18133290;
 }
 
 .title {
@@ -37,10 +38,10 @@
   width: 300px;
   height: 168.75px;
 
-  border: #18133220 solid 9px;
+  border: var(--sec-color) solid 9px;
   border-radius: .1em;
-  
-  background-color: #181332;
+
+  background-color: var(--sec-color);
 }
 
 .content {
@@ -54,4 +55,36 @@
 
   z-index: 3;
 
+}
+
+p {
+  text-align: center;
+  line-height: 34px;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.links {
+  cursor: pointer;
+  
+  color: var(--sec-color-t);
+  
+  text-decoration: none;
+
+  font-style: italic;
+}
+
+.links:hover {
+  color: var(--sec-color-t);
+  font-weight: bold;
+}
+
+#contact .title{
+  margin-bottom: 2em;
+}
+
+.playerModal{
+  
+  border: var(--sec-color) solid 9px;
+  background-color: var(--sec-color);
 }

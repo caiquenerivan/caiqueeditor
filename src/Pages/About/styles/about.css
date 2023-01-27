@@ -19,24 +19,3 @@
 
 }
 
-p {
-    text-align: justify;
-    line-height: 34px;
-    font-size: 20px;
-    font-weight: normal;
-}
-
-.links {
-    cursor: pointer;
-    
-    color: var(--sec-color-t);
-    
-    text-decoration: none;
-
-    font-style: italic;
-}
-
-.links:hover {
-    color: var(--sec-color-t);
-    font-weight: bold;
-}

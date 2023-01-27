@@ -1,0 +1,133 @@
+@media (min-width: 500px) {
+
+    .title,
+    .subtitle {
+        text-align: center;
+    }
+
+
+
+    #mainTitle {
+        margin-bottom: 0;
+    }
+
+    .playerDiv {
+        width: 450px;
+        height: 253.13px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .playerModal {
+
+        width: 450px;
+        height: 253.13px;
+    }
+
+}
+
+@media (min-width: 900px) {
+    #mainPlayer {
+        width: 600px;
+        height: 337.5px;
+    }
+
+    
+    .itensSkills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contatos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+    .playerModal {
+        width: 750px;
+        height: 421.88px;
+    }
+
+    .title {
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 2em;
+        line-height: 2.5em;
+    }
+
+    .fotoCaique {
+        width: 500px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #mainPlayer {
+        width: 1100px;
+        height: 618.75px;
+    }
+
+    .itensSkills{
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
+    }
+
+    #skills, #portfolio, #about, #contact{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+
+    .content {
+        max-width: 1400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .playerModal {
+        width: 1100px;
+        height: 618.75px;
+    }
+
+    .title {
+        font-size: 3em;
+    }
+
+    .subtitle {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 2em;
+        line-height: 2.5em;
+    }
+
+
+    #wp .icone {
+
+        height: 5em;
+        width: 5em;
+    }
+
+    #portfolio .playerDiv{
+        width: 1100px;
+        height: 618.75px;
+    }
+
+    #skills .botao-modal:hover{
+        scale: 1.2;
+    }
+}
