@@ -1,0 +1,63 @@
+#navBar {
+    background-color: var(--primary-color);
+
+    border-bottom: var(--sec-color-t) .1px solid;
+
+    position: fixed;
+
+    width: 100%;
+
+    z-index: 200;
+}
+
+.listaIcones {
+    display: flex;
+    flex-direction: row;
+}
+
+.icones {
+    width: 2rem;
+    height: 2rem;
+
+    background-color: var(--sec-color);
+
+    border-radius: 50%;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: .2em;
+    justify-content: center;
+}
+
+.icone {
+    color: var(--primary-color);
+}
+
+.logo {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+
+    cursor: pointer;
+}
+
+#hamburger{
+    border: none;
+}
+
+.menuItens{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 3em;
+}
+
+.sidebar:hover{
+    background-color: var(--sec-color-t);
+    transform: scale(120%);
+    transition-delay: 150ms;
+}
+
+.sidebar {
+    border-radius: 2em;
+}

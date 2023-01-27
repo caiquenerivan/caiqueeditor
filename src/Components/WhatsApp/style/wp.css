@@ -1,0 +1,17 @@
+#wp{
+    position: fixed;
+    z-index: 2000;
+    right: 2em;
+    bottom: 2em;
+    padding: .3em;
+    background-color: var(--primary-color) ;
+    border-radius: 50%;
+}
+
+#wp .icone{
+
+    color: var(--sec-color);
+    
+    height: 2.5em;
+    width: 2.5em;
+}
